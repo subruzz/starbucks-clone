@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--External owl carosal-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!--nav-bar-->
+    <header class="bg-light sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-md-5 py-3">
+        <div class="container-fluid">
+          <img
+            src="images/logo.png"
+            alt="Logo"
+            class="img-fluid me-md-5"
+            style="max-height: 40px"
+          />
+<h3 class="navbar-toggler text-success">Starbucks</h3>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-normal me-5 text-secondary"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active me-5 text-secondary"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Gift
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">India Exclusive</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">StarBucks Coffee</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Congrats</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-secondary me-5" href="#"
+                  >Orders</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active me-5 text-secondary"
+                  aria-disabled="true"
+                  >Pay</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-disabled="true"
+                  >Store</a
+                >
+              </li>
+            </ul>
+
+            <form
+              class="d-flex form me-5 position-relative align-items-center"
+              role="search"
+            >
+              <i class="bi bi-search position-absolute start-0 fs-5 ms-2"></i>
+              <input
+                class="form-control px-5 me-5"
+                type="search"
+                placeholder="Looking for something?"
+                aria-label="Search"
+              />
+              <i class="fa-solid fa-user fs-4"></i>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--second header-->
+      <section>
+        <div
+          class="container-fluid d-flex flex-column flex-md-row justify-content-between px-3 py-4 worldcup-container mb-3"
+        >
+          <p class="ms-3 ms-md-5 text-light fs-5 mb-3 mb-md-0">
+            Pitch Perfect: World Cup Cricket Magic.
+          </p>
+          <button
+            type="button"
+            class="btn know-btn btn-outline-light rounded-pill py-1 px-3 me-3 me-md-5"
+          >
+            Know More
+          </button>
+        </div>
+      </section>
+      <!-- carousal -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section class="feature-img bg-success mx-2 rounded-3 mb-3">
+              <div class="row">
+                <div class="col-md w-md-50 h-md-25 img-container">
+                  <img
+                    src="images/star3.png"
+                    alt=""
+                    style="width: 60%; object-fit: cover"
+                  />
+                </div>
+                <div class="col-md align-self-center p-3">
+                  <h2 class="text-light fw-bold">
+                    STARBUCKS THANKSGIVING BLEND
+                  </h2>
+                  <p class="text-light fw-normal">
+                    This elegant dark roast returns, showcasing flavors from
+                    some of the world's major coffee-growing regions
+                  </p>
+                  <button
+                    class="rounded-pill text-success fw-bold border-0 bg-light px-md-3 py=md-1 mb-md-3"
+                  >
+                    Order Now
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="feature-img bg-success mx-2 rounded-3 mb-3">
+              <div class="row">
+                <div class="col-md w-md-50 h-md-25 img-container">
+                  <img
+                    src="images/star1.png"
+                    alt=""
+                    style="width: 60%; object-fit: cover"
+                  />
+                </div>
+                <div class="col-md align-self-center p-3">
+                  <h2 class="text-light fw-bold">NEW TO THE LIST</h2>
+                  <p class="text-light fw-normal">
+                    For a nondairy twist on a holiday cookie classic, try the
+                    iced Sugar Cookie Almondmilk Latte
+                  </p>
+                  <button
+                    class="rounded-pill text-success fw-bold border-0 bg-light px-md-3 py=md-1 mb-md-3"
+                  >
+                    Order Now
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="feature-img bg-danger mx-2 rounded-3 mb-3">
+              <div class="row">
+                <div class="col-md w-md-50 h-md-25 img-container">
+                  <img
+                    src="images/star2.png"
+                    alt=""
+                    style="width: 60%; object-fit: cover"
+                  />
+                </div>
+                <div class="col-md align-self-center p-3">
+                  <h2 class="text-light fw-bold">MERRY MOMENT</h2>
+                  <p class="text-light fw-normal">
+                    Treat yourself to a festive Sugar Plum Cheese Danish with a
+                    nicely spiced sugar-plum spread
+                  </p>
+                  <button
+                    class="rounded-pill text-danger fw-bold border-0 bg-light px-md-3 py=md-1 mb-md-3"
+                  >
+                    Order Now
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--food items in round-->
+      <section>
+        <div class="container-fluid mb-5 px-md-5">
+          <p class="fs-4 text-dark fw-bold mb-4 ms-md-3">
+            Handcrafted Curations
+          </p>
+          <div class="row justify-content-between">
+            <div
+              class="col-6 col-sm-4 col-md-4 col-lg-2 mb-4 d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="food-img mb-2">
+                <img
+                  src="images/food1.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <p class="text-dark fw-bold">Best Seller</p>
+            </div>
+
+            <div
+              class="col-6 col-sm-4 col-md-4 col-lg-2 mb-4 d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="food-img mb-2">
+                <img
+                  src="images/food2.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <p class="text-dark fw-bold">Drinks</p>
+            </div>
+            <div
+              class="col-6 col-sm-4 col-md-4 col-lg-2 mb-4 d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="food-img mb-2">
+                <img
+                  src="images/food3.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <p class="text-dark fw-bold">Food</p>
+            </div>
+
+            <div
+              class="col-6 col-sm-4 col-md-4 col-lg-2 mb-4 d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="food-img mb-2">
+                <img
+                  src="images/food4.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <p class="text-dark fw-bold">Merchandise</p>
+            </div>
+
+            <div
+              class="col-6 col-sm-4 col-md-4 col-lg-2 mb-4 d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="food-img mb-2">
+                <img
+                  src="images/food5.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <p class="text-dark fw-bold">Coffee at home</p>
+            </div>
+            <div
+              class="col-6 col-sm-4 col-md-4 col-lg-2 mb-4 d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="food-img mb-2">
+                <img
+                  src="images/food6.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <p class="text-dark fw-bold">Ready to eat</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--arriving today container-->
+      <!-- <section class="offer px-md-5">
+        <div
+          class="container-fluid offer-container d-flex position-relative mb-5"
+        >
+          <img
+            class="img-fluid offer-img me-md-5"
+            src="images/bg2.png"
+            alt=""
+          />
+          <div class="offer-text">
+            <h5 class="fw-bold">Diwali Blend</h5>
+            <p>
+              Crafter with passion,Diwali blend offers a flavourful,festive
+              experience inspired bythe colors & flavours of Diwali
+            </p>
+            <p>
+              for <br />
+              <strong>&#8377; 1199</strong>
+            </p>
+          </div>
+          <button
+            class="order-btn btn btn-success order-button mt-auto ml-auto position-absolute bottom-0 end-0 mb-3 me-3 rounded-pill px-md-5 py-md-2 fw-bold"
+          >
+            Order Now
+          </button>
+        </div>
+      </section> -->
+     
+      <!-- that card section-->
+      <section class="px-md-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="card card-items rounded-5">
+                  <img
+                    src="images/img1.webp"
+                    class="card-img-top gg"
+                    alt="..." style="object-fit:cover;"
+                  />
+
+                  <div class="card-body">
+                    <h6 class="card-title text-success">New Launch</h6>
+                    <p class="text-dark fw-bold">Pumpkin Spice Latte</p>
+                    <p class="card-text text-secondary">
+                      Our signature espresso and steamed milk with the
+                      celebrated flavor combination of pumpkin, cinnamon, nutmeg
+                      an...
+                    </p>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="fw-bold">&#8377;449.75</p>
+                      <button
+                        class="order-btn btn-success order-button rounded-pill px-3 py-1 fw-bold border-0"
+                      >
+                        Add Item
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-items rounded-5">
+                  <img src="images/img2.webp" class="card-img-top" alt="..." style="object-fit:cover;"/>
+
+                  <div class="card-body">
+                    <h6 class="card-title text-success">New Launch</h6>
+                    <p class="text-dark fw-bold">Iced Pumpkin Spice Latte</p>
+                    <p class="card-text text-secondary">
+                      Our signature espresso and milk with the celebrated flavor
+                      combination of pumpkin, cinnamon, nutmeg and clove
+                    </p>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="fw-bold">&#8377;456.75</p>
+                      <button
+                        class="order-btn btn-success order-button rounded-pill px-3 py-1 fw-bold border-0"
+                      >
+                        Add Item
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-items rounded-5">
+                  <img src="images/img4.webp" class="card-img-top" alt="..." style="object-fit:cover;" />
+
+                  <div class="card-body">
+                    <h6 class="card-title text-success">New Launch</h6>
+                    <p class="text-dark fw-bold">
+                      Pumpkin Spice Cream Cold Brew
+                    </p>
+                    <p class="card-text text-secondary">
+                      Our Cold Brew sweetened with vanilla syrup, topped with a
+                      pumpkin spice cold foam topping.Allergens-Milk
+                    </p>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="fw-bold">&#8377;456.75</p>
+                      <button
+                        class="order-btn btn-success order-button rounded-pill px-3 py-1 fw-bold border-0"
+                      >
+                        Add Item
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-items rounded-5">
+                  <img src="images/img3.webp" class="card-img-top" alt="..." style="object-fit:cover;" />
+
+                  <div class="card-body">
+                    <h6 class="card-title text-success">New Launch</h6>
+                    <p class="text-dark fw-bold">Pumpkin Spice Latte</p>
+                    <p class="card-text text-secondary">
+                      Our signature espresso and steamed milk with the
+                      celebrated flavor combination of pumpkin, cinnamon, nutmeg
+                      an...
+                    </p>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="fw-bold">&#8377;449.75</p>
+                      <button
+                        class="order-btn btn-success order-button rounded-pill px-3 py-1 fw-bold border-0"
+                      >
+                        Add Item
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-items rounded-5">
+                  <img src="images/img6.webp" class="card-img-top" alt="..."  style="object-fit:cover;"/>
+
+                  <div class="card-body">
+                    <h6 class="card-title text-success">New Launch</h6>
+                    <p class="text-dark fw-bold">Pumpkin Spice Latte</p>
+                    <p class="card-text text-secondary">
+                      Our signature espresso and steamed milk with the
+                      celebrated flavor combination of pumpkin, cinnamon, nutmeg
+                      an...
+                    </p>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="fw-bold">&#8377;449.75</p>
+                      <button
+                        class="order-btn btn-success order-button rounded-pill px-3 py-1 fw-bold border-0"
+                      >
+                        Add Item
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-items rounded-5">
+                  <img src="images/img7.webp" class="card-img-top" alt="..." style="object-fit:cover;" />
+
+                  <div class="card-body">
+                    <h6 class="card-title text-success">New Launch</h6>
+                    <p class="text-dark fw-bold">Pumpkin Spice Latte</p>
+                    <p class="card-text text-secondary">
+                      Our signature espresso and steamed milk with the
+                      celebrated flavor combination of pumpkin, cinnamon, nutmeg
+                      an...
+                    </p>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="fw-bold">&#8377;449.75</p>
+                      <button
+                        class="order-btn btn-success order-button rounded-pill px-3 py-1 fw-bold border-0"
+                      >
+                        Add Item
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ <!--feed the hunger-->
+
+<section class="mb-3 me-2 px-md-4">
+  <div class="row">
+    <div class="card card-offer border-0 col-md mb-2 ms-2">
+      <img src="images/star4.jpg" class="card-img-top" alt="..." />
+      <div class="card-body card-body1  d-flex flex-column align-items-center justify-content-center">
+        <h4 class="card-title text-success fw-bolder py-2 text-center">
+          Let the holiday cheer come to you
+        </h4>
+        <h6 class="text-success text-center">
+          Make the moment merry.Order StarBucks holiday favorites  on Uber
+          Eats.*
+        </h6>
+
+        <button class="btn btn-outline-dark rounded-pill fw-bold px-md-3 mt-md-3">
+          Order Now
+        </button>
+      </div>
+    </div>
+    <div class="card card-offer border-0 col-md mb- ms-2">
+      <img src="images/star6.jpg" class="card-img-top" alt="..." />
+      <div class="card-body card-body1  bg-success d-flex flex-column align-items-center justify-content-center">
+        <h4 class="card-title text-light text-success fw-bolder py-2 text-center">
+          Let the holiday cheer come to you
+        </h4>
+        <h6 class="text-success text-light text-center">
+          Our new social series about film adaptations kicks off with
+          actors and directors who brought the book to life.
+        </h6>
+        <button class="btn btn-outline-light rounded-pill fw-bold px-3 mt-md-3">
+          Order Now
+        </button>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section class="feature-img bg-success mx-md-4  rounded-3 mb-3 ms-2">
+  <div class="row">
+    <div class="col-md w-md-50 h-md-25 img-container">
+      <img
+        src="images/hunger2.webp"
+        alt=""
+        style="width: 90%; object-fit: cover"
+      />
+    </div>
+    <div class="col-md hunger-text align-self-center p-3">
+      <h2 class="text-light fw-bold">Fighting hunger this holiday</h2>
+      <p class="text-light fw-normal">
+        Hunger is affecting millions of people across America this holiday
+        season.Join us in out commitment to hunger relief and help feed
+        neighbors in need
+      </p>
+      <button class="btn btn-outline-light rounded-pill fw-bold px-3 mt-md-3">
+        Order Now
+      </button>
+    </div>
+  </div>
+</section>
+      <!-- rise background-->
+      <div class="container-fluid rise-container p-md-3 mb-3">
+        <div class="d-flex justify-content-between mb-2 rise-container-heading">
+          <h4 class="fw-bold py-2">Learn more about the world of coffee!</h4>
+          <p class="text-success fw-bold py-2">Discover More</p>
+        </div>
+        <div
+          class="container-fluid rise-bg d-flex flex-column justify-content-end p-4"
+        >
+          <h3 class="fw-bolder text-light">
+            How Coffee Stirred Revels & Rebels
+          </h3>
+          <p class="text-light">
+            Delighted by the jovial character of coffee, everyone was inspired
+            to bring it home - leading to some of the most crucial firsts.
+          </p>
+          <button
+            class="rounded-pill learn-btn btn-light border-0 px-md-5 py-2 align-self-start"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="footer-col">
+            <ul>
+              <li>
+                <h4>About Us</h4>
+                <a href="#" onclick="return false">Coffeehouse</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false"> Our Heritage</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false"> Our Company</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <h4>Responsibility</h4>
+              <li>
+                <a href="#" onclick="return false">Community</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false">Ethical Sourcing</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false">
+                  Environmental Stewardship</a
+                >
+              </li>
+              <li>
+                <a href="#" onclick="return false"> Diversity</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li>
+                <h4>Quick Links</h4>
+                <a href="#" onclick="return false">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false"
+                  >Starbucks Rewards Day Offer</a
+                >
+              </li>
+              <li>
+                <a href="#" onclick="return false"> Delivery</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false">Season's Gifting</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false">Careers</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false">Customer Service</a>
+              </li>
+              <li>
+                <a href="#" onclick="return false">FAQs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Social Media</h4>
+            <div class="social-links">
+              <a href="" onclick="return false"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="" onclick="return false"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="" onclick="return false"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col d-flex flex-column">
+            <img class="mb-1" src="images/apple.png" alt="" />
+            <img src="images/playstore.png" alt="" />
+          </div>
+        </div>
+        <hr style="color: white; height: 2px" />
+        <div class="policy d-flex">
+          <p class="me-4">Web Accessiblity</p>
+          <p class="me-4">Privacy Statement</p>
+          <p class="me-4">Terms of Use</p>
+          <p class="me-4">Contact Us</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap and Popper.js scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--javascript owl carosl-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="functions.js"></script>
+  </body>
+</html>
